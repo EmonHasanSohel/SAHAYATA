@@ -22,3 +22,4 @@
 * feat: added donation tracking and history viewing capabilities for donators.
 * feat: added volunteer profile management to view and edit personal details and availability status.
 * feat: implemented volunteer delivery task management to view assignments and update delivery statuses.
+* feat: added task history viewing and assignment notifications for volunteers.
