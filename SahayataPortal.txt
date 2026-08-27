@@ -184,3 +184,15 @@ struct VictimNotificationMap {
     char reliefPointName[100];
     bool canViewMap;
 };
+
+// T-14: Donator Profile Management Structure
+
+struct DonatorProfile {
+    char name[100];
+    char contactNumber[20];
+    char email[100];
+    char address[200];
+    
+    // Profile Update Flags
+    bool isProfileUpdated;
+};
