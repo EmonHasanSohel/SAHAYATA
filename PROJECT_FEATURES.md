@@ -18,4 +18,4 @@
 * Donator capabilities to view active disaster requests and submit donations
 * Donator Donation Tracking and History to monitor past and current contributions
 * Volunteer Profile Management with availability status updates
-
+* Volunteer Delivery Task Management (View assigned tasks and update delivery status)
