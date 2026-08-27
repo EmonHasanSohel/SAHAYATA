@@ -12,3 +12,16 @@ struct UserRegistration {
     bool isOtpVerified;
     bool isEmailConfirmed;
 };
+
+// T-02: Login and Forgot Password Module Structure
+
+struct UserLogin {
+    char username[50];
+    char password[50];
+    char userRole[20]; // Victim, Donator, Volunteer, Admin, Manager
+    
+    // Forgot Password Flags
+    bool isOtpRequested;
+    char resetOtp[10];
+    char newPassword[50];
+};
