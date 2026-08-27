@@ -16,4 +16,5 @@
 * Victim Notifications for request updates and Disaster Map View showing relief points
 * Donator Profile Management with view and update capabilities
 * Donator capabilities to view active disaster requests and submit donations
+* Donator Donation Tracking and History to monitor past and current contributions
 

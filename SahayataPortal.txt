@@ -211,3 +211,18 @@ struct DonationSubmission {
     bool isDonationSubmitted;
     char submissionDate[20];
 };
+
+// T-16: Donator Donation Tracking and History Structure
+
+struct DonatorTracking {
+    char donationId[20];
+    char deliveryStatus[20]; // Pending, Picked Up, In Transit, Delivered
+    
+    // Volunteer Info
+    char assignedVolunteerName[100];
+    char assignedVolunteerContact[20];
+    
+    // History
+    bool canViewPastDonations;
+    int totalDonatedItems;
+};
