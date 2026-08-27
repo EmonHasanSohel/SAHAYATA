@@ -10,4 +10,5 @@
 * Admin Disaster Request Management (View, Search, Filter, Approve/Reject)
 * Admin User Account Management (View, Search, Filter, Activate/Deactivate all users)
 * Admin Donation \& Delivery Monitoring with Volunteer Assignment capabilities
+* Victim Profile Management with view and update capabilities
 
