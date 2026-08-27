@@ -69,3 +69,15 @@ struct SystemStatistics {
     // Dashboard Refresh
     bool isDataRealTime;
 };
+
+// T-06: Admin Profile Management Structure
+
+struct AdminProfile {
+    char name[100];
+    char contactNumber[20];
+    char email[100];
+    char address[200];
+    
+    // Profile Update Flags
+    bool isProfileUpdated;
+};
