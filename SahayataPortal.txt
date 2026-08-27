@@ -81,3 +81,19 @@ struct AdminProfile {
     // Profile Update Flags
     bool isProfileUpdated;
 };
+
+// T-07: Admin Disaster Request Management Structure
+
+struct DisasterRequestManagement {
+    char requestId[20];
+    char victimId[20];
+    char disasterType[50];
+    char location[100];
+    char urgencyLevel[20]; // High, Medium, Low
+    char requestStatus[20]; // Pending, Approved, Rejected
+    
+    // Admin Actions
+    bool canSearchRequests;
+    bool canFilterRequests;
+    char actionReason[200]; // Optional reason for approval/rejection
+};

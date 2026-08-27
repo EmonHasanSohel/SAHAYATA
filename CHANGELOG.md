@@ -10,4 +10,5 @@
 * feat: implemented admin account creation and status management (activate/deactivate) for managers.
 * feat: added system statistics dashboard displaying total users, requests, and deliveries.
 * feat: added admin profile management to view and edit personal details.
+* feat: implemented disaster request management for admins to view, filter, and approve or reject requests.
 

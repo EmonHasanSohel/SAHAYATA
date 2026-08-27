@@ -7,4 +7,5 @@
 * Admin Account Management (Create, View, Activate, Deactivate) by Manager
 * System Statistics Dashboard for Managers to monitor platform activity
 * Admin Profile Management with view and update capabilities
+* Admin Disaster Request Management (View, Search, Filter, Approve/Reject)
 
