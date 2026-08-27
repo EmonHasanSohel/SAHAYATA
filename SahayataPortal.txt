@@ -253,3 +253,18 @@ struct VolunteerDeliveryTask {
     bool canUpdateStatus;
     bool canViewRouteMap;
 };
+
+// T-19: Volunteer Task History and Notifications Structure
+
+struct VolunteerHistoryNotification {
+    char volunteerId[20];
+    int totalCompletedDeliveries;
+    
+    // Notifications
+    char notificationId[20];
+    char message[300];
+    bool isRead;
+    
+    // History Tracking
+    bool canViewPastTasks;
+};
