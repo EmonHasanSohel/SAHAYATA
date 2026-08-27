@@ -153,3 +153,19 @@ struct HelpRequestForm {
     bool isRequestSubmitted;
     char requestDate[20];
 };
+
+// T-12: Victim Request & Delivery Tracking Structure
+
+struct RequestDeliveryTracking {
+    char requestId[20];
+    char linkedDonationId[20];
+    char deliveryStatus[20]; // Pending, Assigned, In Transit, Delivered
+    
+    // Volunteer Details
+    char volunteerName[100];
+    char volunteerContact[20];
+    
+    // Tracking Flags
+    bool canViewStatus;
+    bool canTrackVolunteer;
+};
