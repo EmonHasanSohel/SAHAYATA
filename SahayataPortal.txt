@@ -140,3 +140,16 @@ struct VictimProfile {
     // Profile Update Flags
     bool isProfileUpdated;
 };
+
+// T-11: Victim Disaster Help Request Submission
+
+struct HelpRequestForm {
+    char disasterType[50];
+    char location[100];
+    char description[500];
+    char urgencyLevel[20]; // High, Medium, Low
+    
+    // Submission Flags
+    bool isRequestSubmitted;
+    char requestDate[20];
+};
