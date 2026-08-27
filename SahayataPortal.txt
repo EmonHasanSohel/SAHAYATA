@@ -53,3 +53,19 @@ struct AdminAccountManagement {
     bool canActivateAdmin;
     bool canDeactivateAdmin;
 };
+
+// T-05: System Statistics Dashboard for Manager
+
+struct SystemStatistics {
+    int totalRegisteredVictims;
+    int totalRegisteredDonators;
+    int totalRegisteredVolunteers;
+    int totalActiveAdmins;
+    
+    int totalDisasterRequests;
+    int totalDonationItems;
+    int totalDeliveriesCompleted;
+    
+    // Dashboard Refresh
+    bool isDataRealTime;
+};
