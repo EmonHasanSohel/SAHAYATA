@@ -268,3 +268,16 @@ struct VolunteerHistoryNotification {
     // History Tracking
     bool canViewPastTasks;
 };
+
+// T-20: System Audit Logs and Reporting Structure
+
+struct SystemAuditLog {
+    char logId[20];
+    char actionPerformedBy[50]; // User ID or Role
+    char actionDescription[200];
+    char timestamp[50];
+    
+    // Reporting Features
+    bool canGenerateMonthlyReport;
+    bool canExportData;
+};
