@@ -25,3 +25,16 @@ struct UserLogin {
     char resetOtp[10];
     char newPassword[50];
 };
+ 
+// T-03: Manager Profile Management Structure
+
+struct ManagerProfile {
+    char name[100];
+    char contactNumber[20];
+    char email[100];
+    char address[200];
+    char accountStatus[20]; // Active or Inactive
+    
+    // Profile Update Flags
+    bool isProfileUpdated;
+};
