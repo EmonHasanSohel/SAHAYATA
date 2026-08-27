@@ -113,3 +113,17 @@ struct UserAccountManagement {
     bool canActivateUser;
     bool canDeactivateUser;
 };
+
+// T-09: Admin Donation & Delivery Monitoring Structure
+
+struct DonationDeliveryMonitoring {
+    char donationId[20];
+    char donatorId[20];
+    char itemDetails[200];
+    int itemQuantity;
+    char deliveryStatus[20]; // Pending, Assigned, In Transit, Delivered
+    
+    // Volunteer Assignment
+    char assignedVolunteerId[20];
+    bool canAssignVolunteer;
+};
