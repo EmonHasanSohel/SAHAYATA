@@ -226,3 +226,16 @@ struct DonatorTracking {
     bool canViewPastDonations;
     int totalDonatedItems;
 };
+
+// T-17: Volunteer Profile Management Structure
+
+struct VolunteerProfile {
+    char name[100];
+    char contactNumber[20];
+    char email[100];
+    char address[200];
+    char availabilityStatus[20]; // Available, Busy, Offline
+    
+    // Profile Update Flags
+    bool isProfileUpdated;
+};
