@@ -8,4 +8,5 @@
 * feat: implemented forgot password feature with OTP verification and new password setup.
 * feat: added manager profile management to view and edit personal details.
 * feat: implemented admin account creation and status management (activate/deactivate) for managers.
+* feat: added system statistics dashboard displaying total users, requests, and deliveries.
 
