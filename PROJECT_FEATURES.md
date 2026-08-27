@@ -8,4 +8,5 @@
 * System Statistics Dashboard for Managers to monitor platform activity
 * Admin Profile Management with view and update capabilities
 * Admin Disaster Request Management (View, Search, Filter, Approve/Reject)
+* Admin User Account Management (View, Search, Filter, Activate/Deactivate all users)
 
