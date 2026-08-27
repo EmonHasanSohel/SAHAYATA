@@ -7,4 +7,5 @@
 * feat: added login functionality with username, password, and role-based redirection.
 * feat: implemented forgot password feature with OTP verification and new password setup.
 * feat: added manager profile management to view and edit personal details.
+* feat: implemented admin account creation and status management (activate/deactivate) for managers.
 

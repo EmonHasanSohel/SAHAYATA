@@ -38,3 +38,18 @@ struct ManagerProfile {
     // Profile Update Flags
     bool isProfileUpdated;
 };
+
+// T-04: Admin Account Management by Manager
+
+struct AdminAccountManagement {
+    char adminName[100];
+    char adminEmail[100];
+    char adminContact[20];
+    char creationDate[20];
+    char accountStatus[20]; // Active or Inactive
+    
+    // Management Actions
+    bool canCreateAdmin;
+    bool canActivateAdmin;
+    bool canDeactivateAdmin;
+};
