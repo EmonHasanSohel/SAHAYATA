@@ -169,3 +169,18 @@ struct RequestDeliveryTracking {
     bool canViewStatus;
     bool canTrackVolunteer;
 };
+
+// T-13: Victim Notifications & Disaster Map View Structure
+
+struct VictimNotificationMap {
+    char notificationId[20];
+    char message[300];
+    char notificationType[30]; // SMS or In-App
+    bool isRead;
+    
+    // Disaster Map View
+    float latitude;
+    float longitude;
+    char reliefPointName[100];
+    bool canViewMap;
+};

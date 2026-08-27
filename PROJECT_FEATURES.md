@@ -13,4 +13,5 @@
 * Victim Profile Management with view and update capabilities
 * Victim Disaster Help Request Submission (Disaster Type, Location, Urgency)
 * Victim Request \& Delivery Tracking with Volunteer Details
+* Victim Notifications for request updates and Disaster Map View showing relief points
 
