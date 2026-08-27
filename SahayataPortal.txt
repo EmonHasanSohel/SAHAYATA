@@ -97,3 +97,19 @@ struct DisasterRequestManagement {
     bool canFilterRequests;
     char actionReason[200]; // Optional reason for approval/rejection
 };
+
+// T-08: Admin User Account Management Structure
+
+struct UserAccountManagement {
+    char userId[20];
+    char userType[20]; // Victim, Donator, Volunteer
+    char name[100];
+    char contactNumber[20];
+    char accountStatus[20]; // Active or Inactive
+    
+    // Admin Actions
+    bool canSearchUsers;
+    bool canFilterUsersByType;
+    bool canActivateUser;
+    bool canDeactivateUser;
+};
