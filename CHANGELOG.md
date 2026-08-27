@@ -20,5 +20,5 @@
 * feat: added donator profile management to view and edit personal details.
 * feat: implemented functionality for donators to view disaster requests and submit donation details.
 * feat: added donation tracking and history viewing capabilities for donators.
-* \* feat: added volunteer profile management to view and edit personal details and availability status.
-
+* feat: added volunteer profile management to view and edit personal details and availability status.
+* feat: implemented volunteer delivery task management to view assignments and update delivery statuses.

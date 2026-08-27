@@ -239,3 +239,17 @@ struct VolunteerProfile {
     // Profile Update Flags
     bool isProfileUpdated;
 };
+
+// T-18: Volunteer Delivery Task Management
+
+struct VolunteerDeliveryTask {
+    char taskId[20];
+    char donationId[20];
+    char pickupAddress[200];
+    char dropOffAddress[200];
+    char deliveryStatus[20]; // Pending, Picked Up, In Transit, Delivered
+    
+    // Action Flags
+    bool canUpdateStatus;
+    bool canViewRouteMap;
+};
