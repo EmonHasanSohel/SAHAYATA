@@ -15,4 +15,5 @@
 * Victim Request \& Delivery Tracking with Volunteer Details
 * Victim Notifications for request updates and Disaster Map View showing relief points
 * Donator Profile Management with view and update capabilities
+* Donator capabilities to view active disaster requests and submit donations
 

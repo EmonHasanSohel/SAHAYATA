@@ -18,3 +18,5 @@
 * feat: implement victim request and delivery tracking to monitor status and volunteer details.
 * feat: added in-app/SMS notifications for request status and implemented map view for disaster locations and relief points.
 * feat: added donator profile management to view and edit personal details.
+* feat: implemented functionality for donators to view disaster requests and submit donation details.
+

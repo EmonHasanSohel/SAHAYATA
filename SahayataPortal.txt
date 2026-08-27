@@ -196,3 +196,18 @@ struct DonatorProfile {
     // Profile Update Flags
     bool isProfileUpdated;
 };
+
+// T-15: Donator Disaster Request View and Donation Submission
+
+struct DonationSubmission {
+    char donationId[20];
+    char donatorId[20];
+    char targetRequestId[20]; // Optional: If donating to a specific request
+    char itemCategory[50]; // Food, Clothes, Medicine, Funds
+    int quantity;
+    char pickupAddress[200];
+    
+    // Submission Flags
+    bool isDonationSubmitted;
+    char submissionDate[20];
+};
