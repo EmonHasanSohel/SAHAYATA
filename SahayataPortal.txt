@@ -1,1 +1,14 @@
+// T-01: User Registration Module Structure
 
+struct UserRegistration {
+    char name[100];
+    char email[100];
+    char username[50];
+    char password[50];
+    char phoneNumber[20];
+    char address[200];
+    
+    // Verification Flags
+    bool isOtpVerified;
+    bool isEmailConfirmed;
+};
